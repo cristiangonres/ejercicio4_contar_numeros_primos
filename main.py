@@ -21,6 +21,6 @@ def count_primos(rango_max):
         else:
             print(f'El número {i} NO es primo ')
             
-    return f'En el rango indicado, entre los números 0 e {i}, hay {count} números primos: \n {primos}'
+    return f'En el rango indicado, entre los números 0 y {rango_max}, hay {count} números primos: \n {primos}'
 
 print(count_primos(int(input('Introduzca el número hasta que el desee revisar los números primos: '))))
